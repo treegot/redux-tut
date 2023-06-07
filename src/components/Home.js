@@ -1,6 +1,6 @@
 import React from "react";
 const Home = (props) => {
-console.warn("home",props.data)
+//console.warn("props",props)
     return (
 
         <div>
@@ -24,6 +24,11 @@ console.warn("home",props.data)
                         ()=>{props.addToCartHandler({pice:1000,name:'i phone 11'})}
                         }>
                         Add To Cart</button>
+                        <button className="remove-cart-button"
+                       onClick={
+                        ()=>{props.removeToCartHandler()}
+                        }>
+                        Remove To Cart</button>
                 </div>
             </div>
         </div>

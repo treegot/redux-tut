@@ -37,6 +37,12 @@
   color: #fff;
   box-shadow: #333 0px 1px 5px;
 }
+button.remove-cart-button
+{
+background-color: #08596f;
+margin-top: 8px;
+
+}
 .img-wrapper img {
   width: 100px;
   margin-top: -10px;;
@@ -51,7 +57,7 @@
   float: left;
   display: inline-block;
   width: 120px;
-  padding: 20px;
+  padding: 16px;
   height: 70px;
 }
 .add-to-cart img{
